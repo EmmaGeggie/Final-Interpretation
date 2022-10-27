@@ -1,0 +1,87 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+canvadisplay block{
+}
+
+.Slider1{
+  -webkit-appearance: none;
+  width: 100%;
+  height: 25px;
+  background: lightgreen;
+  outline: none;
+  border-radius: 20px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.Slider1::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 25px;
+  background: #04AA6D;
+  cursor: pointer;
+}
+
+.Slider1:hover {
+  background: green;
+}
+
+.Picker{
+ border: 3px solid white;
+ border-radius: 28px;
+ padding: 1px;
+ margin: 5px;
+cursor: pointer;
+}
+
+.Picker:hover{
+  background: #CDCDCD;
+}
+
+.Picker2{
+ border: 3px solid #FFFFFF;
+ border-radius: 28px;
+ padding: 1px;
+ margin: 5px;
+cursor: pointer;
+}
+
+.Picker2:hover{
+  background: #CDCDCD;
+}
+
+.textSel{
+ -webkit-appearance: none;
+  width: 100%;
+  height: 25px;
+  background: lightgreen;
+  outline: none;
+  border-radius: 28px; 
+  border: 2px solid lightgreen;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.textSel:hover {
+  background: green;
+}
+
+.type{
+ -webkit-appearance: none;
+ width: 100%;
+ height: 20px;
+ background: lightgreen;
+ outline: none;
+ border-radius: 28px; 
+ border: 2px solid lightgreen;
+ margin: 5px;
+}
+
+
+
+
+
